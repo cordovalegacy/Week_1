@@ -1,0 +1,32 @@
+.App{
+display:flex;
+flex-direction: column;
+background-color: white;
+color: black;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.App-header {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 50px;
+  margin-left: 10%;
+}
+
+h1 {
+  margin-bottom: -20px;
+}
+
+.App-list {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size:40px;
+  list-style-type: none;
+  margin-left: 10%;
+}
